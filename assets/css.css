@@ -1,0 +1,163 @@
+.hero-section{
+    margin: 0 auto;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("./images/container1.png");
+    height: 900px;
+    width:1440px;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 24px 60px 80px 60px;
+}
+.navbar{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+li{list-style: none;}
+
+.logo{width: 128px;
+height: 128px;
+opacity: 1;
+margin-left: 8px;
+padding:  16px 8px;
+display: block;
+}
+
+
+
+.hero-content{
+  margin: auto;
+  text-align: center;
+  width: 768px;
+height: 120;
+opacity: 1;
+color:#ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column
+}
+
+.nav-links{display: flex;
+flex-direction: row;
+gap:32px;
+}
+
+.nav-links a{
+
+  color: #ffffff !important;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.nav-actions{
+display: flex;
+align-items: center;
+color: #ffffff;
+gap:20px
+}
+
+.btn-quote{
+background-color: rgba(255,255,255,0.2);
+color: #ffffff;
+text-decoration: none;
+width: 120;
+height: 36;
+padding: 7.5px 25px 8.5px 25px;
+opacity: 1;
+border-radius: 6px;
+font-size: 14px;
+}
+
+
+
+.hero-content h1{ 
+font-weight: 700;
+font-style: Bold;
+font-size: 96px;
+line-height: 120px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+
+
+.hero-content p{
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+}
+
+
+.green-btn{
+display: inline-flex ;
+align-items: center;
+border: none;
+box-sizing: border-box;
+justify-content: center;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+background-color:#30AA4D;
+width: 283px;
+height: 40px;
+padding: 16px 40px;
+opacity: 1;
+border-radius: 6px;
+
+
+}
+
+
+.vid-btn{gap: 8px;
+  align-items: center;
+  display: inline-flex;
+font-family: Font 1;
+font-weight: 600;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+text-decoration: none;
+color: #ffffff;
+border:  2px solid #ffffff;
+box-sizing: border-box;
+height: 40px;
+padding: 16px 18px;
+}
+
+.hero-btns{
+
+  margin-top: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+
+
+
+.about{background-color: #30AA4D;}
