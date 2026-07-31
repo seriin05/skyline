@@ -16,7 +16,7 @@
 <nav class="navbar">
 
 <div class="logo">
-<img src="./assets/images/SVG.png" alt="skyline-logo">
+<img src="./assets/images/Icon.svg" alt="skyline-logo">
 </div>
 
 <ul class="nav-links">
@@ -41,12 +41,19 @@
 <div class="hero-btns">
 <a href="#" class="green-btn">Explore Our Services</a>
 <a href="#" class="vid-btn"> <i class="fa-solid fa-circle-play"></i> Watch Video</a>
-</div></div></div>
+</div>
+<a href="#about" class="scroll-down">
+    <div class="mouse">
+        <div class="wheel"></div>
+    </div>
+</a>
+
+</div></div>
 </header>
 
 
 
-<section class="about">
+<section id="about" class="about">
     <div class="about-container">
 <div class="content-left">
 <span class="sub-title">About Skyline Glass</span>
@@ -219,7 +226,7 @@ customer service that transforms your vision into reality.</p>
 <h3>Door Repair & Replacement</h3>
 </div>
 </div>
-<a href="services.html" class="btn-services">View All Services <span class="arrow" >&rarr;</span></a></div>
+<a href="services.html" class="btn-services" target="_blank">View All Services <span class="arrow" >&rarr;</span></a></div>
 
 </section>
 
@@ -274,7 +281,7 @@ customer service that transforms your vision into reality.</p>
 </div>
 
 
-<a href="tel:9843581701" class="btn-emergency"><ion-icon name="call-outline"></ion-icon>
+<a href="tel:9843581701" class="btn-emergency" target="_blank"><ion-icon name="call-outline"></ion-icon>
 <div class="btn-text">
 <span class="label">Call Now</span><span class="num">984-358-1701</span>
 </div>
@@ -301,18 +308,18 @@ customer service that transforms your vision into reality.</p>
 
 
 <div class="footer-col">
-<img src="./assets/images/SVG.png" alt="skylineGlassLogo" class="footer-logo">
+<img src="./assets/images/Icon.svg" alt="skylineGlassLogo" class="footer-logo">
 <p>Premium glass solutions with precision and expertise for every Durham space.</p>
 
 
 <div class="contact-item">
-<i class="fa-solid fa-phone"></i>
-<span> (974) 358-1701 </span>
+<ion-icon name="call-outline"></ion-icon>
+<a href="tel:09743581701" target="_blank">(974) 358-1701 </a>
 </div>
 
 <div class="contact-item">
 <FontAwesomeIcon :icon="byPrefixAndName.far['envelope']" />
-<span>info@skylineglass.com</span>
+<a href="mailto:info@skylineglass.com" target="_blank">info@skylineglass.com</a>
 </div>
 </div>
 
@@ -337,8 +344,8 @@ Replacement</a></li>
 <li><a href="#" class="more-link">View More Services →</a></li>
 </ul>
 <div class="social-icons">
-<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-<a href ="#"><i class="fa-brands fa-instagram"></i></a></div>
+<a href="https://www.facebook.com/share/1FtkuBZiNP/?mibextid=wwXIfr" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+<a href ="https://www.instagram.com/blueray.ws?igsh=dXoyNmsya2Fkdnpi" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
 </div>
 </div>
 </div>

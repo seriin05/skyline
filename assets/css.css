@@ -160,11 +160,35 @@ padding: 16px 18px;
   width: 100%;
 }
 
-
-
+.mouse{display: flex;
+  position: relative;
+  border-radius: 16777200px;
+border: 2px solid #FFF;
+width: 24px;
+height: 40px;
+justify-content: center;
+}
+.wheel{
+  width: 4px;
+height: 12px;
+border-radius: 16777200px;
+opacity: 0.6139;
+background: #FFF;
+top:8px;
+position: absolute;
+}
+.scroll-down{
+  display: inline-block;
+  justify-content: center;
+  margin-top: 150px !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+html{scroll-behavior: smooth;}
 .about{
 display: flex;
-background-color: #1b632d;
+  background-color: #23563C;
+
 align-items: center;
 justify-content: center;
 gap: 40px;
@@ -240,7 +264,7 @@ color:#123205;
  .img-right img{
   width: 100%;
 max-width: 544px;
-height: 502px;
+height:auto;
 opacity: 1;
 border-radius: 10px;
 padding: 1px;
@@ -248,15 +272,19 @@ display: block;
 object-fit: cover;
 }
 .img-right{
+  width:100%;
   flex: 1;
   position: relative !important;
-width: 50%;}
+max-width:548px;
+overflow: hidden;}
 
 
 .card{box-sizing: border-box;
   align-items: center !important;
   justify-content: space-between !important;
-  bottom: 20px;
+  bottom: 24px;
+  left:24px;
+  right:24px;
 left:50%;
   width: 494px;
   max-width: 95% !important;
@@ -512,11 +540,12 @@ max-width: 1440px;
 height:auto;
 opacity: 1;
 margin : 0 auto ;
-
+width:100% !important;
 }
 
 .services-item img {
-  width: 656px;
+  max-width: 656px;
+  width:100% !important;
 height: 320px;
 opacity: 1;
 border-radius: 8px;
@@ -593,6 +622,7 @@ margin: 0 auto;
 padding: 0 20px;
 box-sizing: border-box;
 }
+
 .opinion-card{flex: 1;
 border-radius: 10px;
 border: 1px solid #E5E7EB;
@@ -603,6 +633,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 }
+.qoute-text{flex-grow: 1;
+margin-bottom: 24px;}
+.location{margin: 0;}
 
 .fa-quote-right{color:#005E16;
   margin-bottom: 16px;
@@ -628,6 +661,8 @@ font-weight: 600;
 line-height: 24px; 
 letter-spacing: -0.312px;
 border-top: 1px solid #E5E7EB;}
+
+
 .opinion-card .location{color: #6A7282;
 font-family: Inter;
 font-size: 14px;
@@ -649,6 +684,8 @@ margin:0 auto;
 padding:0 20px;
 width:100% !important;
 box-sizing: border-box;
+margin-bottom: 90px !important;
+margin-top: 40px !important;
 }
 
 .footerr{background-color: #23563C;
@@ -661,9 +698,12 @@ padding: 60px 0 20px 0;
 
 .footer-col ul{
   list-style: none;
-  padding: none;
+  padding: 0;
+  padding-left: 0 !important;
   margin:0;
 }
+
+
 .footer-col ul li a{text-decoration: none;
   color:#D1D5DC;color: #D1D5DC;
 text-align: center;
@@ -673,6 +713,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px;
 letter-spacing: -0.439px;}
+
+
 .cpyRight{box-sizing: border-box;
   text-align: center;
   background-color: #23563C;
@@ -715,6 +757,14 @@ letter-spacing: -0.449px;}
   gap: 10px;
   margin-bottom: 10px;
 }
+.contact-item a {text-decoration: none;
+color: #D1D5DC;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.312px;}
 .footer-logo{height: 128px;
 flex-shrink: 0;
 align-self: stretch;
@@ -723,7 +773,19 @@ margin-bottom: 16px;}
 height: 24px;
 align-self: stretch;}
 
-ion-icon{
+
+.social-icons{display: flex;
+align-items: center;
+margin-top:48px ;
+margin-left: 0 auto;
+gap:18px;}
+
+.social-icons a{color:#ffffff;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;}
+.btn-emergency ion-icon{
   width: 24px;
 height: 24px;
   border-radius: 16777200px;
@@ -812,16 +874,12 @@ letter-spacing: -0.449px;
 }
 
 
-/* ==========================================
-   📱 RESPONSIVE MEDIA QUERIES (TABLET & MOBILE)
-   ========================================== */
 
-/* 1. الشاشات المتوسطة والتابلت (أقل من 992px) */
 @media (max-width: 992px) {
   
-  /* Navigation */
+
   .nav-links {
-    display: none; /* إخفاء الروابط العادية لتجهيز قائمة الموبايل */
+    display: none; 
   }
 
   .hero-section {
@@ -839,7 +897,6 @@ letter-spacing: -0.449px;
     line-height: 28px;
   }
 
-  /* About Section */
   .about-container {
     flex-direction: column;
     padding: 0 20px;
@@ -854,7 +911,6 @@ letter-spacing: -0.449px;
     height: auto;
   }
 
-  /* Cards & Grid Adjustments */
   .card-exps {
     flex-wrap: wrap;
     height: auto;
@@ -890,7 +946,7 @@ letter-spacing: -0.449px;
 
 @media (max-width: 768px) {
 
-  /* Hero Section */
+
   .hero-content h1 {
     font-size: 38px;
     line-height: 48px;
@@ -906,22 +962,27 @@ letter-spacing: -0.449px;
     box-sizing: border-box;
   }
 
-  /* About & Features Grid */
+
   .feature-grid {
     grid-template-columns: 1fr; 
   }
 
-  .card {
+  .card {padding:16px 12px;
     position: relative !important;
     left: 0 !important;
     transform: none !important;
     width: 100%;
     margin-top: 20px;
     height: auto;
+    box-sizing: border-box;
     flex-direction: row !important;
+    margin-top: -30px;
+    bottom: auto;
+left:auto;
+right:auto;
   }
 
-  /* Proven Excellence Cards */
+
   .after-about h2 {
     font-size: 26px;
     padding: 0 15px;
