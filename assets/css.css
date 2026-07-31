@@ -994,6 +994,59 @@ background-color: transparent !important;
 
 
 @media (max-width: 768px) {
+
+
+
+
+
+ 
+  html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important; 
+  }
+
+
+  section, container, .container, footer, header {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+
+  div, .footer-container, .grid, .services-grid, .opinions-grid {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+  }
+
+
+  footer {
+    text-align: center !important;
+  }
+  
+  footer .container, .footer-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+  }
+
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+
+
+
+
+
+
    .nav-links {
     display: none; 
     flex-direction: column;
@@ -1011,13 +1064,6 @@ width:max-content;
 min-width: 180px;
   }
   
-  .nav-links.active{display: flex;}
-.menu-btn{border: none;
-  cursor: pointer;
-  font-size: 24px;
-    background-color: transparent !important;
-display: block !important;
-}
 
   .hero-content h1 {
     font-size: 38px;
