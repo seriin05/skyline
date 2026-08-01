@@ -995,6 +995,24 @@ background-color: transparent !important;
 
 @media (max-width: 768px) {
 
+.div-opinions{width:90% !important;
+  
+  padding-right: 20px !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+  max-width: 100%;}
+.opinion-card{
+  width:100% !important;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.emergency-logo{
+  
+  display: flex;
+  justify-content: center !important;
+align-items: center !important;}
+
 
 
 
