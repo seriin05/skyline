@@ -995,9 +995,30 @@ background-color: transparent !important;
 
 @media (max-width: 768px) {
 
+.scroll-down{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 25px !important;
 
-
-
+}
+.scroll-down .mouse{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px !important;
+border: 2px solid #ffffff !important;
+  width:25px !important;
+  height:40px !important;
+  box-sizing: border-box !important;
+  padding-top: 6px !important;
+  padding-left: 8px;
+}
+.scroll-down .wheel{
+  width:4px !important;
+  height:8px !important;
+  border-radius: 2px !important;
+  border-color: #ffffff !important;
+margin:  0 auto !important;}
 
  
   html, body {
