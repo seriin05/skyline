@@ -962,7 +962,13 @@ border:1.08px solid #E5E7EB;
 gap: 25.906px;
 background-color: #ffffff;
 overflow: hidden;}
-
+.blog-card a{text-decoration: none;
+color: #101828;
+font-family: 'Inter' ,sans-serif;
+font-size: 19.43px;
+font-style: normal;
+font-weight: 700;
+line-height: 24.287px; }
 .bread-crumb a{color: rgba(255, 255, 255, 0.80);
 text-align: center;
 font-family: Inter;
