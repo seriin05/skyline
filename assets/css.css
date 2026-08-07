@@ -1,14 +1,14 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('./assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
+  src: url('./fonts/Inter_18pt-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('./assets/fonts/Inter_24pt-Bold.ttf') format('truetype');
+  src: url('./fonts/Inter_24pt-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -1743,6 +1743,187 @@ line-height: 20.584px;
 
 @media (max-width: 992px) {
 
+ .gov-sec {
+    padding: 50px 32px;
+  }
+  .gov-cards {
+    gap: 20px;
+  }
+
+
+  .Capabilities-grid {
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+ 
+  .why-us-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .why-us-card {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  .corporate-data {
+    padding: 50px 32px;
+  }
+  .corporate-grid {
+    height: auto;
+    gap: 32px;
+  }
+
+
+  .keyContact-class {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+ 
+  .projs-card {
+    gap: 16px;
+  }
+
+ 
+  .download-container {
+    padding: 50px 20px;
+  }
+  .download {
+    height: auto;
+    padding: 24px 0;
+  }
+
+
+  .help-you .call {
+    width: 100%;
+  }
+
+
+ .hero-content-3 h1 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .hero-content-3 p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .hero-btns {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+ 
+  .gov-sec {
+    padding: 40px 16px;
+    gap: 32px;
+  }
+  .gov-head h2, 
+  .ourCore-head h2, 
+  .why-us-head h2, 
+  .keyContact h2, 
+  .projs-pics h2, 
+  .corporate-data h2,
+  .help-you h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .gov-card {
+    width: 100%;
+    height: auto;
+    padding: 12px 16px;
+  }
+
+
+  .ourCore {
+    padding: 40px 16px;
+  }
+  .Capabilities-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+
+ 
+  .why-us {
+    padding: 40px 16px;
+  }
+  .why-us-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .corporate-data {
+    padding: 40px 16px;
+  }
+  .corporate-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+
+  .keyContact-class {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .card-inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .keyContact-links {
+    align-items: center;
+  }
+
+
+  .projs-card {
+    flex-direction: column;
+  }
+
+
+  .download {
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    padding: 32px 16px;
+  }
+  .download-info {
+    padding-left: 0;
+    align-items: center;
+    max-width: 100%;
+  }
+  .file-icon {
+    width: 100%;
+  }
+
+  .help-you .call {
+    flex-direction: column;
+    height: auto;
+    gap: 16px;
+  }
+  .touch {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .Residential-body {
     height: auto; 
     padding: 60px 40px;
@@ -1900,10 +2081,95 @@ margin: 0;}
 
 
 @media (max-width: 768px) {
+
+  .hero-section3 {
+    height: auto !important; 
+    padding: 100px 20px 40px 20px !important;
+    background-size: cover !important;
+  }
+
+  .hero-content-3 h1 {
+    font-size: 24px !important;
+    line-height: 32px !important;
+  }
+
+  .hero-content-3 p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+
+ .hero-btns {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+ .gov-sec {
+    padding: 40px 16px !important;
+  }
+
+    .gov-cards {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+ .gov-card {
+    width: 100% !important;
+    height: auto !important; 
+    padding: 16px !important;
+  }
+  .ourCore {
+    padding: 40px 16px !important;
+  }
+  .Capabilities-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important; 
+    gap: 20px !important;
+  }
+
   .Residential-body {
     height: auto;
     padding: 40px 20px;
     gap: 30px;
+  }
+
+ .core-card {
+    width: 100% !important;
+    height: auto !important;
+  }
+ .why-us {
+    padding: 40px 16px !important;
+  }
+  .why-us-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+  .why-us-card {
+    width: 100% !important;
+    height: auto !important; 
+  }
+  .download-container {
+    padding: 40px 16px !important;
+  }
+  .download {
+    flex-direction: column !important;
+    height: auto !important; 
+    padding: 24px 16px !important;
+    gap: 20px !important;
+    text-align: center !important;
+  }
+  .download-info {
+    padding-left: 0 !important;
+    align-items: center !important;
+    max-width: 100% !important;
+  }
+  .file-icon {
+    width: 100% !important;
+    height: 120px !important;
   }
 
   .two-columns {
@@ -1928,7 +2194,21 @@ margin: 0;}
     height: auto;
     border-radius: 8px;
   }
-
+ .help-you {
+    padding: 40px 16px !important;
+  }
+  .help-you .call {
+    flex-direction: column !important;
+    width: 100% !important;
+    height: auto !important; 
+    gap: 16px !important;
+  }
+  .touch {
+    width: 100% !important;
+    height: auto !important;
+    padding: 16px !important;
+    justify-content: center !important;
+  }
 
 
 
