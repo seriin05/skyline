@@ -12,7 +12,10 @@
   font-weight: 700;
   font-style: normal;
 }
-
+html,body{margin:0;
+  width:100%;
+padding:0;
+box-sizing: border-box;}
 body {
   font-family: 'Inter', sans-serif;
 }
@@ -274,7 +277,7 @@ font-family: 'Inter' , sans-serif;
 
 .content-left .example {
 color: #D1D5DC;
-font-family: Inter;
+font-family: 'Inter',sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -535,12 +538,11 @@ font-family: 'Inter' , sans-serif;
   flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 80px auto;
+padding: 80px 20px;
 margin: 0 auto;
 height:auto;
 box-sizing: border-box;
 width: 100%;
-padding: 0 20px;
 font-family: 'Inter' , sans-serif;
 background-color: #ECECEC;}
 
@@ -1646,7 +1648,7 @@ line-height: 24.014px; }
 
 .download-info button{color: #FFF;
 text-align: center;
-font-family: Inter;
+font-family: 'Inter' , sans-serif;
 font-size: 12.007px;
 font-style: normal;
 font-weight: 600;
@@ -1787,11 +1789,41 @@ font-weight: 400;
 line-height: 20.584px; 
 }
 
+/* Container الرئيسي */
+.div-opinions {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px 50px 10px !important; /* مساحة سفلية عشان النقاط ما تغطي ع الكروت */
+  position: relative;
+}
+.opinions {width:100%;
+overflow: hidden;}
 
+/* تنسيق أزرار الأسهم (التنقل) */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #005E16 !important; /* لون الأسهم الأخضر */
+  font-weight: bold;
+}
 
+/* تصغير حجم الأسهم لتناسب التصميم */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+}
 
+/* لون النقاط السفلية (Pagination) */
+.swiper-pagination-bullet {
+  background-color: #98A2B3 !important;
+  opacity: 0.5;
+}
 
-
+/* لون النقطة النشطة */
+.swiper-pagination-bullet-active {
+  background-color: #005E16 !important;
+  opacity: 1;
+}
 
 
 
@@ -2546,7 +2578,10 @@ margin: 0;}
     width: 100%;
     box-sizing: border-box;
   }
-
+.vid-btn {text-align: center;
+display: flex;
+justify-content: center;
+}
 
   .feature-grid {
     grid-template-columns: 1fr; 
