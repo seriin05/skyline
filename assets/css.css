@@ -2244,7 +2244,8 @@ margin: 0;}
 
 
 @media (max-width: 768px) {
-
+body , html{width:100%;
+           overflow-x:hidden;}
 .skyline-logo{
 width: 99px;
 height: 99px;
