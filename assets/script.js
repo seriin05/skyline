@@ -28,3 +28,28 @@
       });
     }
   });
+const swiper = new Swiper('.div-opinions', {
+  slidesPerView: 1,       // كرت واحد للتلفون
+  spaceBetween: 16,
+  loop: false,
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  breakpoints: {
+    640: {
+      slidesPerView: 2,   // كارتين للتابلت
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,   // 3 كروت للابتوب
+      spaceBetween: 32,
+    }
+  }
+});
