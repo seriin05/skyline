@@ -56,7 +56,7 @@ display: block;
 .hero-content{
   margin: auto;
   text-align: center;
-  max-width: 768;
+  max-width: 768px;
   width: 100%;
 height: auto;
 opacity: 1;
@@ -93,7 +93,7 @@ gap:20px
 background-color: rgba(255,255,255,0.2);
 color: #ffffff;
 text-decoration: none;
-width: 120;
+width: 120px;
 height: 36;
 padding: 7.5px 25px 8.5px 25px;
 opacity: 1;
@@ -255,7 +255,7 @@ font-family: 'Inter' , sans-serif;
   width: 50%;
 }
 
-.content-left .sub-title{font-family: Font 1;
+.content-left .sub-title{font-family:'inter' ,sans-serif;
 font-weight: 600;
 font-family: 'Inter' , sans-serif;
 font-size: 14px ;
@@ -472,7 +472,7 @@ letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
 color:#101828;
-width: 1152;
+width: 1152px;
 height: 40px;
 opacity: 1;
 margin-bottom: 48px;
@@ -566,7 +566,7 @@ justify-items: center;
 
 .services h5{color: #005E16;
 font-weight: 600;
-font-style:  Bold;
+font-weight:  Bold;
 font-size: 14px;
 line-height: 20px;
 text-align: center;
@@ -620,7 +620,7 @@ object-fit: cover;
   justify-content: center;
   text-align: center;
   align-items: center;
-font-weight: 700px;
+font-weight: 700;
 font-size: 20px;
 line-height: 25px;
 letter-spacing: 0%;
@@ -647,7 +647,6 @@ gap: 8px;
 border-radius: 8px;
 color: #ffffff;
 font-weight: 500;
-font-style: Medium;
 font-size: 14px;
 line-height: 20px;
 letter-spacing: 0%;
@@ -679,7 +678,7 @@ margin-bottom: 35px !important;
   margin-bottom: 40px;
 }
 
-/* حاوية السلايدر - مسافة كافية للأسهم على الجوانب */
+
 .div-opinions {
   max-width: 1152px;
   width: 90%;
@@ -737,7 +736,6 @@ margin-bottom: 35px !important;
   margin: 4px 0 0 0 !important;
 }
 
-/* التنسيق الخاص بالأسهم وإظهارها */
 .div-opinions .swiper-button-next, 
 .div-opinions .swiper-button-prev {
   width: 40px !important;
@@ -1294,7 +1292,7 @@ text-align: center;}
   justify-content: center;
   align-items: center;
 gap: 54.89px;
-max-width:  1440px;;
+max-width:  1440px;
 
 }
 .gov-card{display: flex;
@@ -1637,7 +1635,7 @@ flex-direction: row;
 display: flex;
 width: auto;
 height: auto;
-padding:20px o ;
+padding:20px 0 ;
 justify-content: center;
 align-items: center;
 gap: 20.584px;}
@@ -2260,6 +2258,17 @@ margin: 0;}
 
 @media (max-width: 768px) {
 
+  .div-opinions .swiper-wrapper {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .div-opinions .swiper-slide {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+
+
 .skyline-logo{
 width: 99px;
 height: 99px;
@@ -2838,7 +2847,7 @@ padding: 40px 20px;}
   overflow: hidden !important;
 }
 
-/* إظهار وتنسيق الأسهم */
+
 .div-opinions .swiper-button-next, 
 .div-opinions .swiper-button-prev {
   display: flex !important;
@@ -2855,23 +2864,11 @@ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0
 z-index: 50 !important;
 }
 
-.div-opinions .swiper-button-prev {left:-1px !important ;}
+.div-opinions .swiper-button-prev {left:-10px !important ;}
 .div-opinions .swiper-button-next {right:16px !important ;}
 
 .div-opinions .swiper-button-next::after, 
 .div-opinions .swiper-button-prev::after {
   font-size: 16px !important;
   font-weight: bold;
-}
-
-/* إصلاح التصفح الأفقي للموبايل */
-@media (max-width: 768px) {
-  .div-opinions .swiper-wrapper {
-    display: flex !important;
-    flex-direction: row !important;
-  }
-  .div-opinions .swiper-slide {
-    width: 100% !important;
-    margin-bottom: 0 !important;
-  }
 }
