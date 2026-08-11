@@ -2259,7 +2259,7 @@ margin: 0;}
 @media (max-width: 768px) {
 
 
-  .hero-content h1{padding-top: 40px;
+  .hero-content h1{padding-top: 30px;
     font-size: 38px;
     line-height: 48px;
   }
@@ -2267,7 +2267,6 @@ margin: 0;}
     font-size: 26px;
     padding: 0 15px;
     display: block !important;
-
   text-align: center !important;}
 
 
@@ -2287,12 +2286,14 @@ margin: 0;}
 
 
 
+
 .skyline-logo{
-width: 99px;
-height: 99px;
+  box-sizing: border-box;
+width: 60px;
+height: auto;
 opacity: 1;
-margin-left: 8px;
-padding:  16px 8px;
+margin : 0 auto ;
+padding:  10px 0px;
 display: block;}
 
   .Residential-body {
