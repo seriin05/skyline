@@ -684,10 +684,10 @@ margin-bottom: 35px !important;
   width: 90%;
   margin: 0 auto;
   position: relative;
-  padding: 10px 50px 50px 50px !important;
   box-sizing: border-box;
-  overflow: hidden !important;
+  padding: 20px 0 !important; 
 }
+
 
 .opinion-card {
   height: auto !important;
@@ -735,43 +735,44 @@ margin-bottom: 35px !important;
   margin: 4px 0 0 0 !important;
 }
 
-.div-opinions .swiper-button-next, 
-.div-opinions .swiper-button-prev {
+
+
+
+.splide__arrow {
+  background: #ffffff !important;
   width: 40px !important;
   height: 40px !important;
-  color: #4A5565 !important;
-  background-color: #ffffff !important;
-  border-radius: 50% !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
-  top: 45% !important;
-  z-index: 10 !important;
-}
-
-.div-opinions .swiper-button-prev { left: 5px !important; }
-.div-opinions .swiper-button-next { right: 5px !important; }
-
-.div-opinions .swiper-button-next::after, 
-.div-opinions .swiper-button-prev::after {
-  font-size: 16px !important;
-  font-weight: bold;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #005E16 !important;
+  border-radius: 16777200px;
+background: #FFF;
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+  opacity: 1 !important;
+  transform: translateY(20px) !important;
+  top:50% !important;
 }
 
 
+.splide__arrow svg {
+ fill:#4A5565 !important;
+  width: 14px !important;
+  height: 14px !important;
+}
 
 
+.splide__pagination__page {
+  width: 8px !important;
+  height: 8px !important;
+  background: #D1D5DB !important; 
+  opacity: 1 !important;
+  margin: 0 4px !important;
+  transition: all 0.3s ease !important;
+}
 
 
-
-
-
-
-
-
-
+.splide__pagination__page.is-active {
+border-radius: 16777200px;
+background: #005E16 !important;
+  transform: scale(1.1) !important;
+}
 
 
 
@@ -2271,21 +2272,6 @@ margin: 0;}
 
 
 
-
-
-
-  .div-opinions .swiper-wrapper {
-    display: flex !important;
-    flex-direction: row !important;
-  }
-  .div-opinions .swiper-slide {
-    width: 100% !important;
-    margin-bottom: 0 !important;
-  }
-
-
-
-
 .skyline-logo{
   box-sizing: border-box;
 width: 60px;
@@ -2846,40 +2832,5 @@ padding: 40px 20px;}
 
 
 
-}
-.div-opinions {
-  max-width: 1152px;
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-  padding: 10px 50px 50px 50px !important;
-  box-sizing: border-box;
-  overflow: hidden !important;
-}
-
-
-.div-opinions .swiper-button-next, 
-.div-opinions .swiper-button-prev {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-top: 65% !important;
-transform: translateY(-50%) !important;
-  width: 25px ;
-height: 25px ;
-color:#4A5565 !important;
-border-radius: 50% !important;
-background-color: #ffffff !important;
-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10) !important;
-z-index: 50 !important;
-}
-
-.div-opinions .swiper-button-prev {left:-10px !important ;}
-.div-opinions .swiper-button-next {right:16px !important ;}
-
-.div-opinions .swiper-button-next::after, 
-.div-opinions .swiper-button-prev::after {
-  font-size: 16px !important;
-  font-weight: bold;
 }
 
