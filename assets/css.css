@@ -2261,8 +2261,13 @@ margin: 0;}
 
 .btn-services{white-space: nowrap;
 width:auto;
+font-size: 14px;
+display: inline-flex;
+gap:8px;
 padding: 12px 20px ;
-justify-content: center;}
+justify-content: center;
+align-items: center;
+max-width: 90%;}
   .splide__arrow {
     display: none !important;
   }
