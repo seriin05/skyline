@@ -736,8 +736,9 @@ margin-bottom: 35px !important;
 }
 
 
+.splide__arrow--next{right:140px !important;}
 
-
+.splide__arrow--prev{left:140px !important;}
 .splide__arrow {
   background: #ffffff !important;
   width: 40px !important;
@@ -747,7 +748,7 @@ background: #FFF;
 box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
   opacity: 1 !important;
   transform: translateY(20px) !important;
-  top:50% !important;
+  top:55% !important;
 }
 
 
@@ -2259,6 +2260,10 @@ margin: 0;}
 @media (max-width: 768px) {
 
 
+  .splide__arrow {
+    display: none !important;
+  }
+
   .hero-content h1{padding-top: 30px;
     font-size: 38px;
     line-height: 48px;
@@ -2833,4 +2838,5 @@ padding: 40px 20px;}
 
 
 }
+
 
