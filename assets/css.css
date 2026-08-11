@@ -2259,7 +2259,10 @@ margin: 0;}
 
 @media (max-width: 768px) {
 
-.btn-services{white-space: nowrap;}
+.btn-services{white-space: nowrap;
+width:auto;
+padding: 12px 20px ;
+justify-content: center;}
   .splide__arrow {
     display: none !important;
   }
