@@ -28,28 +28,15 @@
       });
     }
   });
-const swiper = new Swiper('.div-opinions', {
-  slidesPerView: 1,      
-  spaceBetween: 16,
-  loop: false,
-  
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  breakpoints: {
-    640: {
-      slidesPerView: 2,   
-      spaceBetween: 20,
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('.splide', {
+    type: 'loop',         
+    perPage: 3,          
+    perMove: 1,           
+    gap: '1.5rem',         
+    breakpoints: {
+      1024: { perPage: 2 }, 
+      640:  { perPage: 1 }, 
     },
-    1024: {
-      slidesPerView: 3,  
-      spaceBetween: 32,
-    }
-  }
+  }).mount();
 });
