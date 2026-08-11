@@ -2259,7 +2259,7 @@ margin: 0;}
 
 @media (max-width: 768px) {
 
-
+.btn-services{white-space: nowrap;}
   .splide__arrow {
     display: none !important;
   }
