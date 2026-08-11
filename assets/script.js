@@ -29,7 +29,7 @@
     }
   });
 const swiper = new Swiper('.div-opinions', {
-  slidesPerView: 1,       // كرت واحد للتلفون
+  slidesPerView: 1,      
   spaceBetween: 16,
   loop: false,
   
@@ -44,11 +44,11 @@ const swiper = new Swiper('.div-opinions', {
 
   breakpoints: {
     640: {
-      slidesPerView: 2,   // كارتين للتابلت
+      slidesPerView: 2,   
       spaceBetween: 20,
     },
     1024: {
-      slidesPerView: 3,   // 3 كروت للابتوب
+      slidesPerView: 3,  
       spaceBetween: 32,
     }
   }
