@@ -472,7 +472,7 @@ letter-spacing: 0%;
 text-align: center;
 vertical-align: middle;
 color:#101828;
-width: 1152px;
+
 height: 40px;
 opacity: 1;
 margin-bottom: 48px;
@@ -2258,6 +2258,24 @@ margin: 0;}
 
 @media (max-width: 768px) {
 
+
+  .hero-content h1{padding-top: 40px;
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .after-about h2{ 
+    font-size: 26px;
+    padding: 0 15px;
+    display: block !important;
+
+  text-align: center !important;}
+
+
+
+
+
+
+
   .div-opinions .swiper-wrapper {
     display: flex !important;
     flex-direction: row !important;
@@ -2697,10 +2715,6 @@ margin: 0;}
  
 }
 
-  .hero-content h1 {
-    font-size: 38px;
-    line-height: 48px;
-  }
 
   .hero-btns {
     flex-direction: column;
@@ -2753,10 +2767,6 @@ transform: translateX(-50%) !important;
 
 
 
-  .after-about h2 {
-    font-size: 26px;
-    padding: 0 15px;
-  }
 
   .card-exps > div {
     width: 100%;
@@ -2872,3 +2882,4 @@ z-index: 50 !important;
   font-size: 16px !important;
   font-weight: bold;
 }
+
